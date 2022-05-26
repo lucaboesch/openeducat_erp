@@ -1,25 +1,29 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* openeducat_exam
+# 	* openeducat_exam
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-27 06:22+0000\n"
-"PO-Revision-Date: 2019-09-27 06:22+0000\n"
+"PO-Revision-Date: 2022-07-03 14:02+0200\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
+"X-Generator: Poedit 3.1\n"
 
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.report_marksheet_report
-msgid "<b>Course\n"
+msgid ""
+"<b>Course\n"
 "                                                        </b>"
-msgstr "<B> Kurs\n"
+msgstr ""
+"<B> Kurs\n"
 "                                                        </ B>"
 
 #. module: openeducat_exam
@@ -29,19 +33,23 @@ msgstr "<B> Kurs: </ b>"
 
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.report_marksheet_report
-msgid "<b>Exam\n"
+msgid ""
+"<b>Exam\n"
 "                                                            Code\n"
 "                                                        </b>"
-msgstr "<B> Prüfung\n"
+msgstr ""
+"<B> Prüfung\n"
 "                                                            Code\n"
 "                                                        </ B>"
 
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.report_marksheet_report
-msgid "<b>Exam\n"
+msgid ""
+"<b>Exam\n"
 "                                                            Name\n"
 "                                                        </b>"
-msgstr "<B> Prüfung\n"
+msgstr ""
+"<B> Prüfung\n"
 "                                                            Name\n"
 "                                                        </ B>"
 
@@ -57,10 +65,12 @@ msgstr "<B> Rollen No: </ b>"
 
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.report_marksheet_report
-msgid "<b>Student\n"
+msgid ""
+"<b>Student\n"
 "                                                            Name\n"
 "                                                        </b>"
-msgstr "<B> Student\n"
+msgstr ""
+"<B> Student\n"
 "                                                            Name\n"
 "                                                        </ B>"
 
@@ -71,10 +81,12 @@ msgstr "<B> Student Name: </ b>"
 
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.report_marksheet_report
-msgid "<strong>MarkSheet\n"
+msgid ""
+"<strong>MarkSheet\n"
 "                                            </strong>"
-msgstr "<Strong> marksheet\n"
-"                                            </ Strong>"
+msgstr ""
+"<strong> Bewertungsblatt\n"
+"                                            </strong>"
 
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.report_marksheet_report
@@ -139,8 +151,7 @@ msgid "Cancel"
 msgstr "Abbrechen"
 
 #. module: openeducat_exam
-#: selection:op.exam,state:0
-#: selection:op.exam.session,state:0
+#: selection:op.exam,state:0 selection:op.exam.session,state:0
 #: selection:op.marksheet.register,state:0
 msgid "Cancelled"
 msgstr "Abgesagt"
@@ -272,18 +283,15 @@ msgstr "Anzeigename"
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.view_op_exam_form
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.view_op_exam_session_form
-#: selection:op.exam,state:0
-#: selection:op.exam.session,state:0
+#: selection:op.exam,state:0 selection:op.exam.session,state:0
 msgid "Done"
-msgstr "Getan"
+msgstr "Erledigt"
 
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.view_op_exam_form
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.view_op_exam_session_form
-#: selection:op.exam,state:0
-#: selection:op.exam.session,state:0
-#: selection:op.marksheet.register,state:0
-#: selection:op.result.template,state:0
+#: selection:op.exam,state:0 selection:op.exam.session,state:0
+#: selection:op.marksheet.register,state:0 selection:op.result.template,state:0
 msgid "Draft"
 msgstr "Entwurf"
 
@@ -320,20 +328,20 @@ msgstr "Geben Sie die richtige Kapazität"
 #: code:addons/openeducat_exam/models/result_line.py:45
 #, python-format
 msgid "Enter proper Marks or Percentage!"
-msgstr "Geben Sie die richtige Marks oder Prozentsatz!"
+msgstr "Geben Sie korrekte Bewertungen oder Prozentsätze ein!"
 
 #. module: openeducat_exam
 #: code:addons/openeducat_exam/models/marksheet_line.py:56
 #, python-format
 msgid "Enter proper marks or percentage!"
-msgstr "Geben Sie die richtige Zeichen oder Prozentsatz!"
+msgstr "Geben Sie korrekte Bewertungen oder Prozentsätze ein!"
 
 #. module: openeducat_exam
 #: code:addons/openeducat_exam/models/exam.py:66
 #: code:addons/openeducat_exam/models/exam_attendees.py:58
 #, python-format
 msgid "Enter proper marks!"
-msgstr "Geben Sie die richtige Mark!"
+msgstr "Geben Sie korrekte Bewertungen ein!"
 
 #. module: openeducat_exam
 #: code:addons/openeducat_exam/models/marksheet_register.py:63
@@ -367,9 +375,11 @@ msgstr "Prüfung"
 
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.report_marksheet_report
-msgid "Exam\n"
+msgid ""
+"Exam\n"
 "                                                    Type"
-msgstr "Prüfung\n"
+msgstr ""
+"Prüfung\n"
 "                                                    Art"
 
 #. module: openeducat_exam
@@ -392,7 +402,7 @@ msgstr "Prüfungscode"
 #. module: openeducat_exam
 #: model:ir.model,name:openeducat_exam.model_report_openeducat_exam_report_marksheet_report
 msgid "Exam Marksheet Report"
-msgstr "Prüfungsbericht marksheet"
+msgstr "Bericht Prüfungsbewertungsblätter"
 
 #. module: openeducat_exam
 #: model:ir.model,name:openeducat_exam.model_op_exam_room
@@ -484,8 +494,7 @@ msgid "Exams"
 msgstr "Prüfungen"
 
 #. module: openeducat_exam
-#: selection:op.marksheet.line,status:0
-#: selection:op.result.line,status:0
+#: selection:op.marksheet.line,status:0 selection:op.result.line,status:0
 msgid "Fail"
 msgstr "Scheitern"
 
@@ -571,8 +580,7 @@ msgstr "Gruppieren nach ..."
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.view_op_exam_session_form
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.view_op_held_exam_form
-#: selection:op.exam,state:0
-#: selection:op.exam.session,state:0
+#: selection:op.exam,state:0 selection:op.exam.session,state:0
 msgid "Held"
 msgstr "Gehaltenen"
 
@@ -705,12 +713,12 @@ msgstr "Hauptanbau"
 #: model:ir.model.fields,field_description:openeducat_exam.field_op_result_line__marks
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.view_op_result_line_search
 msgid "Marks"
-msgstr ""
+msgstr "Bewertungen"
 
 #. module: openeducat_exam
 #: model:ir.actions.report,name:openeducat_exam.report_marksheet
 msgid "Marksheet"
-msgstr "Markierungsblatt"
+msgstr "Bewertungsblatt"
 
 #. module: openeducat_exam
 #: model:ir.model,name:openeducat_exam.model_op_marksheet_line
@@ -737,19 +745,19 @@ msgstr "marksheet Linien"
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.view_op_marksheet_register_search
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.view_op_marksheet_register_tree
 msgid "Marksheet Register"
-msgstr "Registrieren marksheet"
+msgstr "Bewertungsblatt-Register"
 
 #. module: openeducat_exam
 #: model:ir.actions.act_window,name:openeducat_exam.act_open_op_marksheet_register_view
 #: model:ir.ui.menu,name:openeducat_exam.menu_op_marksheet_register_sub
 msgid "Marksheet Registers"
-msgstr "Register marksheet"
+msgstr "Bewertungsblatt-Register"
 
 #. module: openeducat_exam
 #: model:ir.model.fields,field_description:openeducat_exam.field_op_marksheet_register__marksheet_line
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.view_op_marksheet_register_form
 msgid "Marksheets"
-msgstr ""
+msgstr "Bewertungsblätter"
 
 #. module: openeducat_exam
 #: model:ir.model.fields,field_description:openeducat_exam.field_op_grade_configuration__max_per
@@ -779,9 +787,11 @@ msgstr "Minimaler Prozent"
 
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.report_marksheet_report
-msgid "Month/Year\n"
+msgid ""
+"Month/Year\n"
 "                                                    of Passing"
-msgstr "Monat Jahr\n"
+msgstr ""
+"Monat Jahr\n"
 "                                                    von Passing"
 
 #. module: openeducat_exam
@@ -846,50 +856,57 @@ msgstr "Anzahl der ungelesenen Nachrichten"
 
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.report_marksheet_report
-msgid "Obtained\n"
+msgid ""
+"Obtained\n"
 "                                                    Grade"
-msgstr "erhalten\n"
+msgstr ""
+"erhalten\n"
 "                                                    Klasse"
 
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.report_marksheet_report
-msgid "Obtained\n"
+msgid ""
+"Obtained\n"
 "                                                    Marks"
-msgstr "erhalten\n"
-"                                                    Marks"
+msgstr ""
+"Erhalten\n"
+"                                                    Bewertungen"
 
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.report_marksheet_report
-msgid "Obtained\n"
+msgid ""
+"Obtained\n"
 "                                                    Marks/Total\n"
 "                                                    Marks"
-msgstr "erhalten\n"
-"                                                    Marks / Gesamt\n"
-"                                                    Marks"
+msgstr ""
+"Erhalten\n"
+"                                                    Bewertungen / Gesamt\n"
+"                                                    Bewertungen"
 
 #. module: openeducat_exam
-#: selection:op.marksheet.line,status:0
-#: selection:op.result.line,status:0
+#: selection:op.marksheet.line,status:0 selection:op.result.line,status:0
 msgid "Pass"
 msgstr "Bestehen"
 
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.report_marksheet_report
-msgid "Passing\n"
+msgid ""
+"Passing\n"
 "                                                    Marks"
-msgstr "Vorbeigehen\n"
-"                                                    Marks"
+msgstr ""
+"Bestanden\n"
+"                                                    Bewertungen"
 
 #. module: openeducat_exam
 #: model:ir.model.fields,field_description:openeducat_exam.field_op_exam__min_marks
 msgid "Passing Marks"
-msgstr ""
+msgstr "Bestehende Bewertungen"
 
 #. module: openeducat_exam
 #: code:addons/openeducat_exam/models/exam.py:68
 #, python-format
 msgid "Passing Marks can't be greater than Total Marks"
-msgstr "sein Marks Passing kann nicht mehr als Gesamt Marks"
+msgstr "Bestehensbewertung kann höher sein als die Gesamtbewertung"
 
 #. module: openeducat_exam
 #: model:ir.model.fields,field_description:openeducat_exam.field_op_marksheet_line__percentage
@@ -1012,8 +1029,7 @@ msgid "Schedule Exam"
 msgstr "Schedule-Prüfung"
 
 #. module: openeducat_exam
-#: selection:op.exam,state:0
-#: selection:op.exam.session,state:0
+#: selection:op.exam,state:0 selection:op.exam.session,state:0
 msgid "Scheduled"
 msgstr "Geplant"
 
@@ -1107,22 +1123,24 @@ msgstr "Zeit"
 
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.report_marksheet_report
-msgid "Total\n"
+msgid ""
+"Total\n"
 "                                                    Marks"
-msgstr "Gesamt\n"
-"                                                    Marks"
+msgstr ""
+"Gesamt\n"
+"                                                    Bewertungen"
 
 #. module: openeducat_exam
 #: model:ir.model.fields,field_description:openeducat_exam.field_op_marksheet_register__total_failed
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.view_op_marksheet_register_search
 msgid "Total Fail"
-msgstr "insgesamt Ausfallen"
+msgstr "insgesamt durchgefallen"
 
 #. module: openeducat_exam
 #: model:ir.model.fields,field_description:openeducat_exam.field_op_exam__total_marks
 #: model:ir.model.fields,field_description:openeducat_exam.field_op_marksheet_line__total_marks
 msgid "Total Marks"
-msgstr "Gesamtnoten"
+msgstr "Gesamtbewertungen"
 
 #. module: openeducat_exam
 #: model:ir.model.fields,field_description:openeducat_exam.field_op_marksheet_register__total_pass
@@ -1133,7 +1151,7 @@ msgstr "Gesamt Pass"
 #. module: openeducat_exam
 #: model:ir.model.fields,field_description:openeducat_exam.field_op_room_distribution__total_student
 msgid "Total Student"
-msgstr "insgesamt Studenten"
+msgstr "Total Student:innen"
 
 #. module: openeducat_exam
 #: model:ir.model.fields,field_description:openeducat_exam.field_op_exam__message_unread
@@ -1154,7 +1172,7 @@ msgstr "Ungelesene Nachrichten Zähler"
 #. module: openeducat_exam
 #: model_terms:ir.ui.view,arch_db:openeducat_exam.view_op_marksheet_register_form
 msgid "Validate Marksheet"
-msgstr "Validate marksheet"
+msgstr "Bewertungsblatt validieren"
 
 #. module: openeducat_exam
 #: selection:op.marksheet.register,state:0
@@ -1185,4 +1203,3 @@ msgstr "Website Nachrichten"
 #: model:ir.model.fields,help:openeducat_exam.field_op_result_template__website_message_ids
 msgid "Website communication history"
 msgstr "Website Kommunikation Geschichte"
-

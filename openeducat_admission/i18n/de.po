@@ -1,44 +1,56 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* openeducat_admission
+# 	* openeducat_admission
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: Odoo Server 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-27 06:29+0000\n"
-"PO-Revision-Date: 2019-09-27 06:29+0000\n"
+"POT-Creation-Date: 2019-06-05 04:59+0000\n"
+"PO-Revision-Date: 2022-07-03 15:30+0200\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
+"X-Generator: Poedit 3.1\n"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.report_admission_analysis
 msgid "<b>Course : </b>"
-msgstr "<B> Kurs: </ b>"
+msgstr "<b>Kurs:</b>"
+
+#. module: openeducat_admission
+#: model:ir.model.fields,field_description
+msgid "Academic Year"
+msgstr "Akademisches Jahr"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.report_admission_analysis
 msgid "<b>From Date: </b>"
-msgstr "<B> Von Datum: </ b>"
+msgstr "<b>Startdatum:</b>"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.report_admission_analysis
 msgid "<b>To Date:</b>"
-msgstr "<B> Datum: </ b>"
+msgstr "<b>Enddatum:</b>"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.report_admission_analysis
 msgid "<strong>Admission Analysis</strong>"
-msgstr "<Strong> Zulassung Analyse </ strong>"
+msgstr "<strong>Zulassung Analyse</strong>"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.report_admission_analysis
 msgid "<strong>Total Number of Students :</strong>"
-msgstr "<Strong> Gesamtzahl der Studenten: </ strong>"
+msgstr "<strong>Gesamtzahl der Studenten :</strong>"
+
+#. module: openeducat_admission
+#: model:ir.model.fields,field_description
+msgid "Minimum Required Age(Years)"
+msgstr "Erforderliches Mindestalter (Jahre)"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__message_needaction
@@ -54,48 +66,48 @@ msgstr "Adresse"
 #. module: openeducat_admission
 #: model:ir.model,name:openeducat_admission.model_op_admission
 msgid "Admission"
-msgstr "Eintritt"
+msgstr "Zulassung"
 
 #. module: openeducat_admission
 #: model:ir.actions.act_window,name:openeducat_admission.act_open_op_admission_view_pivot
 #: model:ir.actions.report,name:openeducat_admission.action_report_report_admission_analysis
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.admission_analysis_form
 msgid "Admission Analysis"
-msgstr "Der Eintritt Analyse"
+msgstr "Zulassungsanalyse"
 
 #. module: openeducat_admission
 #: model:ir.actions.act_window,name:openeducat_admission.admission_analysis_act
 #: model:ir.model,name:openeducat_admission.model_report_openeducat_admission_report_admission_analysis
 #: model:ir.ui.menu,name:openeducat_admission.menu_admission_analysis_report
 msgid "Admission Analysis Report"
-msgstr "Der Eintritt Analysis Report"
+msgstr "Zulassungsanalysebericht"
 
 #. module: openeducat_admission
 #: model:ir.model,name:openeducat_admission.model_admission_analysis
 msgid "Admission Analysis Wizard"
-msgstr "Der Eintritt Analyseassistent"
+msgstr "Zulassungsanalysewizart"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_form
 #: selection:op.admission,state:0
 msgid "Admission Confirm"
-msgstr ""
+msgstr "Zulassungsbestätigung"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__admission_date
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_search
 msgid "Admission Date"
-msgstr "Aufnahmedatum"
+msgstr "Zulassungsdatum"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_form
 msgid "Admission Detail"
-msgstr "Der Eintritt Details"
+msgstr "Zulassungsdetails"
 
 #. module: openeducat_admission
 #: selection:op.admission.register,state:0
 msgid "Admission Process"
-msgstr "Aufnahmeverfahren"
+msgstr "Zulassungsverfahren"
 
 #. module: openeducat_admission
 #: model:ir.model,name:openeducat_admission.model_op_admission_register
@@ -105,7 +117,7 @@ msgstr "Aufnahmeverfahren"
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_register_search
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_register_tree
 msgid "Admission Register"
-msgstr "Der Eintritt Registrieren"
+msgstr "Zulassungsregister"
 
 #. module: openeducat_admission
 #: model:ir.actions.act_window,name:openeducat_admission.act_open_op_admission_register_view
@@ -116,36 +128,40 @@ msgstr "Zulassungsregister"
 #. module: openeducat_admission
 #: model:ir.ui.menu,name:openeducat_admission.menu_admission_analysis
 msgid "Admission Report"
-msgstr "Der Eintritt Bericht"
+msgstr "Zulassungsbericht"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__admission_ids
 #: model:ir.ui.menu,name:openeducat_admission.menu_op_admission_root
 #: model:ir.ui.menu,name:openeducat_admission.menu_op_admission_submenu
 msgid "Admissions"
-msgstr ""
+msgstr "Zulassungen"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__application_date
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_search
 msgid "Application Date"
-msgstr "Antragsdatum"
+msgstr "Anmeldedatum"
 
 #. module: openeducat_admission
 #: code:addons/openeducat_admission/models/admission.py:188
 #, python-format
-msgid "Application Date should be between Start Date &                     End Date of Admission Register."
-msgstr "Anwendung Datum sollte zwischen Anfang und Ende Datum der Zulassung Register sein."
+msgid ""
+"Application Date should be between Start Date &                     End Date "
+"of Admission Register."
+msgstr ""
+"Anmeldedatum sollte zwischen Anfangdatum und Enddatum des "
+"Zulassungsregisters sein."
 
 #. module: openeducat_admission
 #: selection:op.admission.register,state:0
 msgid "Application Gathering"
-msgstr "Anwendung Versammlung"
+msgstr "Sammeln von Anmeldungen"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.report_admission_analysis
 msgid "Application No."
-msgstr "Anmeldung Nr"
+msgstr "Anmeldung Nr."
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__application_number
@@ -155,25 +171,25 @@ msgstr "Anmeldenummer"
 #. module: openeducat_admission
 #: sql_constraint:op.admission:0
 msgid "Application Number must be unique per Application!"
-msgstr "Anmeldenummer muss pro Anwendung eindeutig sein!"
+msgstr "Anmeldenummer muss pro Anmeldung eindeutig sein!"
 
 #. module: openeducat_admission
 #: model:ir.ui.menu,name:openeducat_admission.menu_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_register_form
 msgid "Applications"
-msgstr "Anwendungen"
+msgstr "Anmeldungen"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__message_attachment_count
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__message_attachment_count
 msgid "Attachment Count"
-msgstr "Befestigungs Count"
+msgstr "Anzahl Attachments"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__batch_id
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_search
 msgid "Batch"
-msgstr "Stapel"
+msgstr "Gruppe"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__birth_date
@@ -194,10 +210,9 @@ msgid "Cancel"
 msgstr "Abbrechen"
 
 #. module: openeducat_admission
-#: selection:op.admission,state:0
-#: selection:op.admission.register,state:0
+#: selection:op.admission,state:0 selection:op.admission.register,state:0
 msgid "Cancelled"
-msgstr "Abgesagt"
+msgstr "Abgebrochen"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__city
@@ -212,8 +227,7 @@ msgid "Confirm"
 msgstr "Bestätigen"
 
 #. module: openeducat_admission
-#: selection:op.admission,state:0
-#: selection:op.admission.register,state:0
+#: selection:op.admission,state:0 selection:op.admission.register,state:0
 msgid "Confirmed"
 msgstr "Bestätigt"
 
@@ -236,7 +250,7 @@ msgstr "Kurs"
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_graph
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_pivot
 msgid "Course By Admission"
-msgstr "Kurs von Admission"
+msgstr "Kurs nach Zulassung"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__product_id
@@ -267,26 +281,24 @@ msgstr "Anzeigename"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_register_form
-#: selection:op.admission,state:0
-#: selection:op.admission.register,state:0
+#: selection:op.admission,state:0 selection:op.admission.register,state:0
 msgid "Done"
-msgstr "Getan"
+msgstr "Erledigt"
 
 #. module: openeducat_admission
-#: selection:op.admission,state:0
-#: selection:op.admission.register,state:0
+#: selection:op.admission,state:0 selection:op.admission.register,state:0
 msgid "Draft"
 msgstr "Entwurf"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__due_date
 msgid "Due Date"
-msgstr "Geburtstermin"
+msgstr "Fälligkeitsdatum"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_form
 msgid "Educational Detail"
-msgstr "Bildungs ​​Details"
+msgstr "Details der Ausbildung"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__email
@@ -297,13 +309,13 @@ msgstr "E-Mail"
 #. module: openeducat_admission
 #: sql_constraint:op.admission:0
 msgid "Email must be unique per Application!"
-msgstr "E-Mail muss eindeutig pro Anwendung sein!"
+msgstr "E-Mail muss eindeutig pro Anmeldung sein!"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_admission_analysis__end_date
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__end_date
 msgid "End Date"
-msgstr "Endtermin"
+msgstr "Enddatum"
 
 #. module: openeducat_admission
 #: code:addons/openeducat_admission/models/admission_register.py:72
@@ -320,7 +332,7 @@ msgstr "Einschreiben"
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_search
 msgid "Enrolled"
-msgstr "Eingeschriebene"
+msgstr "Eingeschrieben"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__family_business
@@ -341,7 +353,7 @@ msgstr "Gebühren"
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__fees_term_id
 msgid "Fees Term"
-msgstr "Gebühren Zeit"
+msgstr "Zahlungsbedingung"
 
 #. module: openeducat_admission
 #: selection:op.admission,gender:0
@@ -358,19 +370,19 @@ msgstr "Vorname"
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__message_follower_ids
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__message_follower_ids
 msgid "Followers"
-msgstr "Verfolger"
+msgstr "Followers"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__message_channel_ids
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__message_channel_ids
 msgid "Followers (Channels)"
-msgstr "Verfolger (Kanäle)"
+msgstr "Followers (Kanäle)"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__message_partner_ids
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Verfolger (Partner)"
+msgstr "Followers (Partner)"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__gender
@@ -389,7 +401,7 @@ msgstr "Gruppieren nach ..."
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__id
 #: model:ir.model.fields,field_description:openeducat_admission.field_report_openeducat_admission_report_admission_analysis__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,help:openeducat_admission.field_op_admission__message_unread
@@ -401,24 +413,26 @@ msgstr "Wenn neue Nachrichten überprüft erfordern Ihre Aufmerksamkeit."
 #: model:ir.model.fields,help:openeducat_admission.field_op_admission__message_needaction
 #: model:ir.model.fields,help:openeducat_admission.field_op_admission_register__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Wenn diese Option aktiviert, erfordern neue Nachrichten Ihre Aufmerksamkeit."
+msgstr ""
+"Wenn diese Option aktiviert, erfordern neue Nachrichten Ihre Aufmerksamkeit."
 
 #. module: openeducat_admission
 #: model:ir.model.fields,help:openeducat_admission.field_op_admission__message_has_error
 #: model:ir.model.fields,help:openeducat_admission.field_op_admission_register__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Wenn diese Option aktiviert haben einige Nachrichten, die einen Lieferfehler."
+msgstr ""
+"Wenn diese Option aktiviert haben einige Nachrichten, die einen Lieferfehler."
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__is_student
 msgid "Is Already Student"
-msgstr "Ist bereits Schüler"
+msgstr "Ist bereits Student:in"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__message_is_follower
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__message_is_follower
 msgid "Is Follower"
-msgstr "ist Follower"
+msgstr "Ist Follower"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_admission_analysis____last_update
@@ -432,7 +446,7 @@ msgstr "Zuletzt geändert am"
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__last_name
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_form
 msgid "Last Name"
-msgstr "Familienname, Nachname"
+msgstr "Nachname"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_admission_analysis__write_uid
@@ -457,7 +471,7 @@ msgstr "Mail:"
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__message_main_attachment_id
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__message_main_attachment_id
 msgid "Main Attachment"
-msgstr "Hauptanbau"
+msgstr "Haupt-Attachment"
 
 #. module: openeducat_admission
 #: selection:op.admission,gender:0
@@ -491,12 +505,12 @@ msgstr "Zweiter Vorname"
 #: code:addons/openeducat_admission/models/admission_register.py:82
 #, python-format
 msgid "Min Admission can't be greater than Max Admission"
-msgstr "Min Eintritt kann nicht größer sein als Max Admission"
+msgstr "Min Zulassungen kann nicht größer sein als Max Zulassungen"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__min_count
 msgid "Minimum No. of Admission"
-msgstr "Mindestanzahl Admission"
+msgstr "Mindestanzahl Zulassungen"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__mobile
@@ -507,18 +521,18 @@ msgstr "Handy, Mobiltelefon"
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__name
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__nbr
 msgid "No of Admission"
-msgstr "Keine der Zulassung"
+msgstr "Anzahl Zulassungen"
 
 #. module: openeducat_admission
 #: code:addons/openeducat_admission/models/admission_register.py:80
 #, python-format
 msgid "No of Admission should be positive!"
-msgstr "Keine der Zulassung sollte positiv sein!"
+msgstr "Anzahl der Zulassungen sollte positiv sein!"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__message_needaction_counter
@@ -553,7 +567,7 @@ msgstr "Anzahl der ungelesenen Nachrichten"
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_form
 msgid "Open Student Profile"
-msgstr "Öffnen Student Profil"
+msgstr "Student:innenprofil öffnen"
 
 #. module: openeducat_admission
 #: selection:op.admission,gender:0
@@ -563,18 +577,18 @@ msgstr "Andere"
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__partner_id
 msgid "Partner"
-msgstr ""
+msgstr "Partner"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_form
 #: selection:op.admission,state:0
 msgid "Pending"
-msgstr "steht aus"
+msgstr "Ausstehend"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_form
 msgid "Personal Detail"
-msgstr "Persönliches Detail"
+msgstr "Persönliche Details"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__phone
@@ -590,17 +604,17 @@ msgstr "Telefon:"
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__prev_course_id
 msgid "Previous Course"
-msgstr "Zurück Kurs"
+msgstr "Vorheriger Kurs"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__prev_institute_id
 msgid "Previous Institute"
-msgstr "Zurück Institut"
+msgstr "Vorherige Lehrinstitution"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__prev_result
 msgid "Previous Result"
-msgstr "Voriges Ergebnis"
+msgstr "Vorheriges Resultat"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.admission_analysis_form
@@ -639,17 +653,17 @@ msgstr "Berichte"
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_form
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_register_form
 msgid "Set to Draft"
-msgstr "Set Draft"
+msgstr "Auf Entwurf setzen"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_register_form
 msgid "Start Admission"
-msgstr "starten Sie Admission"
+msgstr "Zulassung starten"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_register_form
 msgid "Start Application"
-msgstr "Anwendung starten"
+msgstr "Anmeldung starten"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_admission_analysis__start_date
@@ -661,19 +675,19 @@ msgstr "Anfangsdatum"
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__state
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_form
 msgid "State"
-msgstr "Zustand"
+msgstr "Status"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__state_id
 msgid "States"
-msgstr "Zustände"
+msgstr "Status"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__state
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_register_search
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_search
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__street
@@ -694,34 +708,40 @@ msgstr "Straße Nummer 2"
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__student_id
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_form
 msgid "Student"
-msgstr ""
+msgstr "Student:in"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.report_admission_analysis
 msgid "Student Name"
-msgstr "Name des Studenten"
+msgstr "Name der/des Student:in"
 
 #. module: openeducat_admission
 #: model_terms:ir.ui.view,arch_db:openeducat_admission.view_op_admission_form
 msgid "Submit"
-msgstr "einreichen"
+msgstr "Einreichen"
 
 #. module: openeducat_admission
 #: selection:op.admission,state:0
 msgid "Submitted"
-msgstr "eingereicht"
+msgstr "Eingereicht"
 
 #. module: openeducat_admission
-#: code:addons/openeducat_admission/models/admission.py:388
+#: code:addons/openeducat_admission/models/admission.py:387
 #, python-format
 msgid "The value of the deposit amount must be positive."
 msgstr "Der Wert des Einzahlungsbetrages muss positiv sein."
 
 #. module: openeducat_admission
-#: code:addons/openeducat_admission/models/admission.py:383
+#: code:addons/openeducat_admission/models/admission.py:382
 #, python-format
-msgid "There is no income account defined for this product: \"%s\".                    You may have to install a chart of account from Accounting                    app, settings menu."
-msgstr "Es gibt keine Einkommensbilanz für dieses Produkt definiert: „% s“. Sie haben von der Buchhaltung App ein Diagramm des Kontos installieren, Menü Einstellungen."
+msgid ""
+"There is no income account defined for this product: \"%s"
+"\".                    You may have to install a chart of account from "
+"Accounting                    app, settings menu."
+msgstr ""
+"Es gibt keine Einkommensbilanz für dieses Produkt definiert: „% s“. Sie "
+"haben von der Buchhaltung App ein Diagramm des Kontos installieren, Menü "
+"Einstellungen."
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__title
@@ -733,7 +753,7 @@ msgstr "Titel"
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__message_unread
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission_register__message_unread
 msgid "Unread Messages"
-msgstr "ungelesene Nachrichten"
+msgstr "Ungelesene Nachrichten"
 
 #. module: openeducat_admission
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__message_unread_counter
@@ -767,4 +787,3 @@ msgstr "Postleitzahl"
 #: model:ir.model.fields,field_description:openeducat_admission.field_op_admission__image
 msgid "image"
 msgstr "Bild"
-
